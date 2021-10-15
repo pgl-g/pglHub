@@ -3,7 +3,7 @@ const app = require('./app');
 require('./app/database');
 
 // TDOO：先写死这边有问题
-const config = require('./app/config');
+// const config = require('./app/config');
 
 // 启动服务
 app.listen(8888, () => {

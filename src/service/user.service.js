@@ -4,6 +4,7 @@ class UserService {
   async create(user) {
     const { name, password } = user;
 
+    // 防止sql注入VALUES(?, ?)
     const statement = `INSERT INTO users (name, password) VALUES(?, ?);`;
 
     const result = await connection.execute(statement, [name, password]);
