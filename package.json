@@ -1,0 +1,23 @@
+{
+  "name": "pglHub",
+  "version": "1.0.0",
+  "description": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgl-g/pglHub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgl-g/pglHub/issues"
+  },
+  "homepage": "https://github.com/pgl-g/pglHub#readme",
+  "dependencies": {
+    "koa": "^2.13.3"
+  }
+}
