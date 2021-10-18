@@ -12,7 +12,6 @@ class UserService {
     // 将user存储到数据库中
     return result[0];
   }
-
   async getUserByName(name) {
     const statement = `SELECT * FROM users WHERE name = ?;`;
 

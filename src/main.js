@@ -6,7 +6,7 @@ require('./app/database');
 // const config = require('./app/config');
 
 // 启动服务
-app.listen(8888, () => {
+app.listen(8889, () => {
   console.log('服务器启动成功~');
 });
 
