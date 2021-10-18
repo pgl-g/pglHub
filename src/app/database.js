@@ -12,7 +12,7 @@ const connections = mysql2.createPool({
 connections.getConnection((err, conn) => {
   conn.connect((errs) => {
     if (errs) {
-      console.log('连接失败', errs);
+      throw(errs);
     } else {
       console.log('数据库连接成功');
     }
