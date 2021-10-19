@@ -8,7 +8,7 @@ const connections = mysql2.createPool({
   password: 'root',
   user: 'root'
 });
-
+// 得连接数据库
 connections.getConnection((err, conn) => {
   conn.connect((errs) => {
     if (errs) {
